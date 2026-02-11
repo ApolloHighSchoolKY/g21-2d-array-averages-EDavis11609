@@ -10,6 +10,17 @@ public class Gee21{
       15 16 17 18 19 20 21
       22 23 24 25...
       */
+      int value = 1;
+
+    for(int row=0; row<ray.length;row++)
+    {
+      for(int col=0; col<ray[row].length;col++)
+    
+          {
+            ray[row][col]=value;
+            value++;
+          }
+    }
 
     ArrayAverages twoDee = new ArrayAverages(ray);
 
